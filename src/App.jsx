@@ -85,7 +85,7 @@ const DEFAULT_CONFIG = {
   tituloHoteles: 'Sugerencias de Hospedaje',
   subtituloHoteles: 'Para quienes nos acompañan de fuera de la ciudad, hemos seleccionado estas opciones:',
   hashtag: '#AngelicaYLuisAngel',
-  musicaUrl: 'https://ia600405.us.archive.org/3/items/paulyudin-wedding-485932/paulyudin-wedding-485932.mp3',
+  musicaUrl: 'https://ia600407.us.archive.org/1/items/romantic-flight-how-to-train-your-dragon-cinematic-version/Romantic%20Flight%20%28How%20To%20Train%20Your%20Dragon%29%20CINEMATIC%20VERSION.mp3',
   itinerarioJson: JSON.stringify(DEFAULT_ITINERARIO),
   galeriaJson: JSON.stringify(DEFAULT_GALERIA),
   hotelesJson: JSON.stringify(DEFAULT_HOTELES)
