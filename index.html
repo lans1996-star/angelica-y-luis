@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only" />
     <title>Nuestra Boda — Angélica & Luis Ángel | 13 de Marzo de 2027</title>
 
     <!-- Etiquetas Open Graph para Vista Previa Dinámica en WhatsApp -->
@@ -26,6 +27,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Parche definitivo contra el Modo Oscuro de iPhone y Android -->
+    <style>
+      :root {
+        color-scheme: light only !important;
+      }
+      input, select, textarea {
+        color: #3d352e !important;
+        -webkit-text-fill-color: #3d352e !important;
+        opacity: 1 !important;
+      }
+      input::placeholder, textarea::placeholder {
+        color: #9e8f80 !important;
+        -webkit-text-fill-color: #9e8f80 !important;
+        opacity: 1 !important;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
